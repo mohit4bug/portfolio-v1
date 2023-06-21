@@ -48,13 +48,13 @@ export default function Projects() {
                 <Link href={projects[0].link} ref={project_one_ref} className={`${FONT.className}  text-[10vw] text-neutral-500 whitespace-nowrap hover:text-yellow-600 transition-colors duration-500`}>{projects[0].name}</Link>
             </div>
             <div className="h-[20vh] xl:h-[40vh]  border-t-2 border-b-2 border-neutral-500 flex items-center">
-                <Link href={projects[0].link} ref={project_two_ref} className={`${FONT.className} text-[10vw] text-neutral-500 whitespace-nowrap hover:text-yellow-600 transition-colors duration-500`}>{projects[1].name}</Link>
+                <Link href={projects[1].link} ref={project_two_ref} className={`${FONT.className} text-[10vw] text-neutral-500 whitespace-nowrap hover:text-yellow-600 transition-colors duration-500`}>{projects[1].name}</Link>
             </div>
             <div className="h-[20vh] xl:h-[40vh]  border-t-2 border-b-2 border-neutral-500 flex items-center">
-                <Link href={projects[0].link} ref={project_three_ref} className={`${FONT.className} text-[10vw] text-neutral-500 whitespace-nowrap hover:text-yellow-600 transition-colors duration-500`}>{projects[2].name}</Link>
+                <Link href={projects[2].link} ref={project_three_ref} className={`${FONT.className} text-[10vw] text-neutral-500 whitespace-nowrap hover:text-yellow-600 transition-colors duration-500`}>{projects[2].name}</Link>
             </div>
             <div className="h-[20vh] xl:h-[40vh]  border-t-2 border-neutral-500 flex items-center">
-                <Link href={projects[0].link} ref={project_four_ref} className={`${FONT.className} text-[10vw] text-neutral-500 whitespace-nowrap hover:text-yellow-600 transition-colors duration-500`}>{projects[3].name}</Link>
+                <Link href={projects[3].link} ref={project_four_ref} className={`${FONT.className} text-[10vw] text-neutral-500 whitespace-nowrap hover:text-yellow-600 transition-colors duration-500`}>{projects[3].name}</Link>
             </div>
         </div>
     )

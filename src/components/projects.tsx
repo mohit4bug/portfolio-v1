@@ -13,7 +13,7 @@ const projects = [
     { name: "Sunokitaab Blog Web App", link: "https://sunokitaab.com/blog" },
     { name: "Social Media Clone", link: "https://github.com/mohit4bug/SOCIAL-MEDIA" },
     { name: "Pizza Ordering Web App", link: "https://github.com/mohit4bug/MizzaPizza" },
-    { name: "Paralax Next JS Portfolio", link: "" },
+    { name: "Paralax Next JS Portfolio", link: "https://github.com/mohit4bug/portfolio-v1" },
 ]
 
 export default function Projects() {

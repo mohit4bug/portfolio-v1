@@ -26,7 +26,7 @@ export default function Contact() {
                 <h1 className="text-neutral-400 font-medium text-center text-2xl">mohit4bug@gmail.com</h1>
                 <div className="flex items-center gap-2">
                     <Button>
-                        <Link href="https://www.instagram.com/maverick.4_/">
+                        <Link href="https://www.instagram.com/mohit4bug/">
                             Instagram
                         </Link>
                     </Button>
